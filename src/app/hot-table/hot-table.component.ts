@@ -2,7 +2,7 @@ import {Component, ElementRef, EventEmitter, Input, NgZone, OnChanges, OnDestroy
 import {Observable} from 'rxjs/Observable';
 import {Subscription} from 'rxjs/Subscription';
 import * as _ from 'lodash';
-declare var Handsontable: any;
+import * as Handsontable from 'handsontable-pro';
 
 
 @Component({
