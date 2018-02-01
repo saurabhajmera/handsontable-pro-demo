@@ -7,13 +7,13 @@ import { HotTableComponent } from './hot-table/hot-table.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HotTableComponent
+    AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    SaHandsontableModule
   ],
-  providers: [SaHandsontableModule],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
