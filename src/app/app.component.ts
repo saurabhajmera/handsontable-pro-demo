@@ -7,8 +7,8 @@ import {AfterViewInit, Component, OnInit} from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit, AfterViewInit {
-  private data: any[];
-  private options: any;
+  public data: any[];
+  public options: any;
 
   constructor() {
     this.data = [
