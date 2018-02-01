@@ -22,7 +22,7 @@
     "@angular/platform-browser-dynamic": "~4.3.6",
     "@angular/router": "^4.2.4",
     "core-js": "^2.4.1",
-    "handsontable-pro": "saurabhajmera/handsontable-pro",
+    "handsontable-pro": "^1.15.1",
     "rxjs": "^5.4.2",
     "zone.js": "^0.8.14"
   },

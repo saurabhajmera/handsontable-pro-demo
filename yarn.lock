@@ -2072,11 +2072,20 @@ handlebars@^4.0.3:
   optionalDependencies:
     uglify-js "^2.6"
 
-handsontable-pro@saurabhajmera/handsontable-pro:
+handsontable-pro@^1.15.1:
   version "1.15.1"
-  resolved "https://codeload.github.com/saurabhajmera/handsontable-pro/tar.gz/0656d1d2493fb28360af3aecf33e3d1527775780"
+  resolved "https://registry.yarnpkg.com/handsontable-pro/-/handsontable-pro-1.15.1.tgz#426722b4753f65cd25db4b3a598bca922cff7af4"
   dependencies:
+    handsontable "0.35.1"
     hot-formula-parser "^2.3.1"
+    moment "2.20.1"
+    numbro "1.11.0"
+    pikaday "1.5.1"
+
+handsontable@0.35.1:
+  version "0.35.1"
+  resolved "https://registry.yarnpkg.com/handsontable/-/handsontable-0.35.1.tgz#e976aa568824b250f2f475309db8db9a8ef1b1d9"
+  dependencies:
     moment "2.20.1"
     numbro "1.11.0"
     pikaday "1.5.1"
