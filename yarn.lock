@@ -2072,9 +2072,10 @@ handlebars@^4.0.3:
   optionalDependencies:
     uglify-js "^2.6"
 
-handsontable-pro@^1.15.1:
+handsontable-pro@1.15.1:
   version "1.15.1"
-  resolved "https://registry.yarnpkg.com/handsontable-pro/-/handsontable-pro-1.15.1.tgz#426722b4753f65cd25db4b3a598bca922cff7af4"
+  resolved "https://artifacts.netflix.com/api/npm/npm-netflix/handsontable-pro/-/handsontable-pro-1.15.1.tgz#426722b4753f65cd25db4b3a598bca922cff7af4"
+  integrity sha1-QmcitHU/Zc0l20s6WYvKkiz/evQ=
   dependencies:
     handsontable "0.35.1"
     hot-formula-parser "^2.3.1"

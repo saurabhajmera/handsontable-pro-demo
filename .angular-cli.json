@@ -19,8 +19,8 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css",
-        "../node_modules/handsontable-pro/dist/handsontable.full.css"
+        "../node_modules/handsontable-pro/dist/handsontable.full.css",
+        "styles.css"
       ],
       "scripts": [
         "../node_modules/handsontable-pro/dist/handsontable.full.js"

@@ -1,4 +1,5 @@
 import {AfterViewInit, Component, OnInit} from '@angular/core';
+import * as Handsontable from 'handsontable';
 
 
 @Component({
@@ -12,25 +13,21 @@ export class AppComponent implements OnInit, AfterViewInit {
   public headers: any[];
 
   constructor() {
-    this.data = [
-      ['', 'X','S','3', 'Volvo', 'Toyota', 'Honda'],
-      ['2017',10, 11, 12, 10, 11, 12, 13],
-      ['2018',10, 11, 12, 20, 11, 14, 13],
-      ['2019',10, 11, 12, 30, 15, 12, 13]
-    ];
+    this.data = Handsontable.helper['createSpreadsheetData'](100, 1000);
 
-    this.headers = ['', 'Tesla', 'Volvo', 'Toyota', 'Honda'];
+    // this.headers = ['', 'Tesla', 'Volvo', 'Toyota', 'Honda'];
 
     this.options = {
+      colWidths: 100,
+      width: '100%',
+      height: 320,
+      rowHeights: 23,
       rowHeaders: true,
-      stretchH: 'all',
-      columnSorting: true,
-      contextMenu: true,
-      filters: true,
-      dropdownMenu: true,
-      nestedHeaders: [
-        ['', {label: 'Tesla', colspan: 3}, 'Volvo', 'Toyota', 'Honda']
-      ]
+      colHeaders: true,
+      currentRowClassName: 'currentRow',
+      currentColClassName: 'currentCol',
+      fixedColumnsLeft: 3,
+      fixedRowsTop: 2,
     };
   }
 
